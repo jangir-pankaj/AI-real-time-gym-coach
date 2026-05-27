@@ -85,7 +85,7 @@ def main():
                 st.session_state.last_notified_workout_completed = 0
                 st.rerun()
         else:
-            exercise = st.session_state.get("plan_exercise")
+            exercise = st.session_state.get("exercise_type")
             sets = st.session_state.get("plan_sets")
             reps = st.session_state.get("plan_reps")
 
